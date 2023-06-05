@@ -1,0 +1,59 @@
+.approval{
+	.approval-header{
+		width: 750rpx;
+		height: 100rpx;
+		position: fixed;
+		top: 84rpx;
+		left: 0;
+		z-index: 99;
+		background-color: #fff;
+		box-sizing: border-box;
+		border-bottom: 1px solid #888;
+		overflow: hidden;
+		@include flex();
+		text-align: center;
+		// align-items: center;
+		.approval-header-left,.approval-header-right{
+			color: #ff0000;
+			width: 50%;
+			&.active{
+				line-height: 100rpx;
+				box-sizing: border-box;
+				background-color: #ff0000;
+				color: #fff;
+			}
+			
+		}
+	}
+	.approval-container{
+		margin-top: 100rpx;
+		.scrollView{
+			.scrollView-item{
+				border-bottom: 2rpx solid #888;
+				padding: 20rpx 10rpx 20rpx 20rpx;
+				@include flex();
+				.scrollView-item-left{
+					.item-content{
+						@include flex();
+					}
+				}
+				.scrollView-item-right{
+					@include flex(space-around,column);
+					overflow: hidden;
+					.item-result{
+						
+					}
+					.item-click{
+						width: 150rpx;
+						height: 50rpx;
+						border: 2rpx solid #888;
+						text-align: center;
+						line-height: 50rpx;
+						margin-top: 30rpx;
+						border-radius: 10rpx;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+page{
+	background-color: #EF7D7D;
+}
+.container{
+
+	.container-form{
+		@include flex(space-between,column);
+		margin-top: 200rpx;
+		.form{
+			width: 600rpx;
+			height: 500rpx;
+			// background-color: #fff;
+			padding: 50rpx;
+			.form-input{
+				width: 400rpx;
+			}
+			.login-btn{
+				margin-top: 100rpx;
+				border-radius: 40rpx;
+				background-color: #FF0000;
+				color: #fff;
+				font-size: 32rpx;
+				font-weight: bold;
+			}
+		}
+	}
+}
+/deep/ .uni-forms-item__label{
+		font-size: 32rpx;
+		color: #fff;
+		}
+/deep/ .uni-forms-item__error{
+	color: #000;
+}
+/deep/ .uni-navbar--border{
+	border: none;
+}

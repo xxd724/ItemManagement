@@ -1,0 +1,22 @@
+.goodsList{
+	.outbound-table-td{
+		padding-left: 10rpx;
+		display: block;
+		width: 190rpx;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.uni-pagination-box{
+		width: 500rpx;
+		margin: 40rpx auto 0;
+	}
+}
+
+/deep/ .uni-table-th{
+	padding:16rpx 0;
+}
+/deep/ .uni-table-td{
+	padding:16rpx 0rpx;
+	box-sizing: content-box;
+}

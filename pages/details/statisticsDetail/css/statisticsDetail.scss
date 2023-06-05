@@ -1,0 +1,28 @@
+.statisticsDetail{
+	.details-header{
+		width: 750rpx;
+		height: 200rpx;
+		border-bottom: 2rpx solid #888;
+		box-sizing: border-box;
+	}
+	.details-container{
+		width: 750rpx;
+		flex: 1;
+		.details-container-list{
+			.container-list-item{
+				width: 750rpx;
+				height: 50rpx;
+				@include flex();
+				border-bottom: 2rpx solid #000;
+				box-sizing: border-box;
+				padding: 0 50rpx;
+				.container-list-item-left{
+					font-weight: bold;
+				}
+				.container-list-item-right{
+					
+				}
+			}
+		}
+	}
+}

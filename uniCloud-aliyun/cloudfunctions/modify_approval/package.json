@@ -1,0 +1,7 @@
+{
+  "name": "modify_approval",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

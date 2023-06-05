@@ -1,0 +1,7 @@
+{
+  "name": "add_registration",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

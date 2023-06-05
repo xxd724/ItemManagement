@@ -1,0 +1,83 @@
+.outbound{
+	.outbound-header{
+		padding: 30rpx 0;
+		.header{
+			border: 2rpx solid #888;
+			width: 700rpx;
+			border-radius: 40rpx;
+			box-sizing: border-box;
+			@include flex(flex-start);
+			align-items: center;
+			margin: 0 auto;
+			.header-searchinput{
+				.search-input{
+					padding:0 20rpx;
+					width: 350rpx;
+					height: 70rpx;
+					box-sizing: border-box;
+				}
+				
+			}
+			.header-select{
+				width: 200rpx;
+				border-radius: 10rpx;
+				border: 2rpx solid #888;
+			}
+			.header-searchbtn{
+				.search-btn{
+					width: 150rpx;
+					height: 70rpx;
+					line-height: 2;
+					border-left: 2rpx solid #888;
+					border-top-right-radius: 40rpx;
+					border-bottom-right-radius: 40rpx;				
+				}
+			}
+		}
+	}
+	.outbound-container{
+		height: 930rpx;
+		.outbound-table-td{
+			padding-left: 10rpx;
+			display: block;
+			width: 120rpx;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+		.uni-pagination-box{
+			width: 500rpx;
+			margin: 30rpx auto 0;
+		}
+	}
+	.outbound-footer{
+		margin-top: 50rpx;
+		.footer-btn{
+			width: 700rpx;
+		}
+	}
+}
+
+
+
+
+.cr{
+	color: #ff0000;
+}
+.cg{
+	color: #DEC72F;
+}
+.cb{
+	color: #000;
+}
+
+/deep/ .uni-select{
+	height: 70rpx;
+}
+/deep/ .uni-table-th{
+	padding:16rpx 0;
+}
+/deep/ .uni-table-td{
+	padding:16rpx 0rpx;
+	box-sizing: content-box;
+}

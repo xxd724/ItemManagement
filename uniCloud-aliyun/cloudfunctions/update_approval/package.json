@@ -1,0 +1,7 @@
+{
+  "name": "update_approval",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

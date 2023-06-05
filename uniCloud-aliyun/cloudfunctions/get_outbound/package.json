@@ -1,0 +1,7 @@
+{
+  "name": "get_outbound",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

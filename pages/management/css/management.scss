@@ -1,0 +1,81 @@
+.management{
+	.management-header{
+		padding: 30rpx 0;
+		.header{
+			border: 2rpx solid #888;
+			width: 700rpx;
+			border-radius: 40rpx;
+			box-sizing: border-box;
+			@include flex(flex-start);
+			align-items: center;
+			margin: 0 auto;
+			.header-searchinput{
+				.search-input{
+					padding:0 20rpx;
+					width: 350rpx;
+					height: 70rpx;
+					box-sizing: border-box;
+				}
+				
+			}
+			.header-select{
+				width: 200rpx;
+				border-radius: 10rpx;
+				border: 2rpx solid #888;
+			}
+			.header-searchbtn{
+				.search-btn{
+					width: 150rpx;
+					height: 70rpx;
+					line-height: 2;
+					border-left: 2rpx solid #888;
+					border-top-right-radius: 40rpx;
+					border-bottom-right-radius: 40rpx;				
+				}
+			}
+		}
+	}
+	.management-container{
+		height: 930rpx;
+		// border: 2rpx solid $base-color;
+		.uni-pagination-box{
+			width: 600rpx;
+			margin: 100rpx auto 0;
+		}
+	}
+	
+}
+
+
+
+
+.cr{
+	color: #ff0000;
+}
+.cg{
+	color: #888;
+}
+.cb{
+	color: #000;
+}
+
+
+/deep/ .uni-select{
+	height: 70rpx;
+}
+/deep/ .uni-table-th{
+	padding:20rpx 0;
+}
+/deep/ .uni-pagination__btn{
+	border: 4rpx solid #cccccc;
+	background-color: #fff;
+	border-radius: 0;
+}
+/deep/ .uni-pagination__num{
+	border: 2rpx solid #cccccc;
+	background-color: #fff;
+	margin: 0;
+}
+/deep/ .uni-pagination__num-current-text{
+	color: #ff0000 !important;
+}

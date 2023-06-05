@@ -1,0 +1,7 @@
+{
+  "name": "modify_management",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,63 @@
+.afreshcollection{
+	width: 650rpx;
+	margin: 30rpx auto;
+	.form{
+		.form-select{
+			width: 500rpx;
+			height: 50rpx;
+			border-radius: 10rpx;
+			border: 2rpx solid #888;
+		}
+		.submit-btn{
+			margin-top: 100rpx;
+		}
+		.reset-btn{
+			margin-top: 50rpx;
+		}
+		.submit-btn,.reset-btn{
+			width: 500rpx;
+			height: 80rpx;
+			line-height: 80rpx;
+			background-color: #ff0000;
+			color: #fff;
+			border-radius: 40rpx;
+		}
+		
+	}
+}
+
+/deep/ .uni-forms-item__label{
+	width: 150rpx !important;
+	justify-content:flex-end !important;
+	font-weight: bold;
+	text-align: center;
+	height: 50rpx;
+}
+/deep/ .uni-select{
+	border: 0;
+	height: 0;
+}
+/deep/ .uni-select__input-placeholder,.uni-easyinput__placeholder-class,.uni-input-placeholder{
+	color: #888;
+}
+/deep/ .uni-forms-item{
+	margin-bottom: 40rpx;
+}
+/deep/ .uni-date__x-input{
+	height: 50rpx;
+}
+/deep/ .uni-date-x--border{
+	border: 2rpx solid #888;
+	border-radius: 10rpx;
+}
+/deep/ .uni-easyinput__content{
+	border: 2rpx solid #888;
+	box-sizing: border-box;
+	border-radius: 25rpx;
+}
+/deep/ .uni-easyinput__content-input{
+	height: 50rpx;
+	border:0;
+}
+
+

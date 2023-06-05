@@ -1,0 +1,64 @@
+.statistics{
+	.statistics-header{
+		margin-bottom: 30rpx;
+		.radioGroup{
+			padding: 20rpx 20rpx 0;
+			box-sizing: border-box;
+			.radioGroup-item{
+				text{
+					font-size: 24rpx;
+					margin-right: 10rpx;
+				}
+			}
+			.header-item{
+				@include flex(flex-start);
+				align-items: center;
+				margin-bottom: 16rpx;
+				.search-btn{
+					margin-left: 10rpx;
+					border-radius: 8rpx;
+				}
+			}
+		}
+			
+	}
+	.statistics-container{
+		.table{
+			.table-tr{
+				
+			}
+			.table-td{
+				padding-left: 10rpx;
+				display: block;
+				width: 120rpx;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+			
+		}
+		.uni-pagination-box{
+			width: 500rpx;
+			margin: 10rpx auto 0;
+		}
+	}
+}
+
+/deep/ .uni-date__x-input{
+	font-size: 24rpx;
+}
+/deep/ .uni-table-th{
+	padding: 12rpx 0;
+}
+/deep/ .uni-table-td{
+	padding: 10rpx 0;
+	font-size: 24rpx;
+}
+/deep/ uni-button{
+	font-size: 24rpx;
+}
+/deep/ .uni-pagination__btn{
+	background-color: #fff;
+	border: 2rpx solid #888;
+	box-sizing: border-box;
+}
